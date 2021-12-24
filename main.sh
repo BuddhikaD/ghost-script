@@ -30,7 +30,7 @@ sudo apt update && sudo apt upgrade -y
 sudo ufw status
 sudo ufw allow OpenSSH
 sudo ufw allow 80
-sudo ufw enable
+sudo ufw enable -y
 sudo ufw status
 sudo apt update && sudo apt upgrade -y 
 
