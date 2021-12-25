@@ -39,6 +39,7 @@ sudo apt install software-properties-common
 sudo add-apt-repository ppa:certbot/certbot
 sudo apt install certbot
 sudo certbot certonly --standalone -d example.com
+# These commands will download a certificate to /etc/letsencrypt/live/example.com/
 
 # Install Docker & Docker compose
 sudo apt update -y
